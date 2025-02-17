@@ -24,15 +24,15 @@ Dog Breed Prediction is a machine learning project that uses a pre-trained neura
    git clone https://github.com/yourusername/Dog_breed.git
    cd Dog_breed
 
-###Create a Virtual Environment (Optional but Recommended):
+2. **Create a Virtual Environment (Optional but Recommended):
 
-# bash
+```bash
 python -m venv env
 # On Windows:
 env\Scripts\activate
 # On Mac/Linux:
 source env/bin/activate
-
+```
 Usage
 Run the Streamlit App:
 bash

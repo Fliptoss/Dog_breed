@@ -24,7 +24,7 @@ Dog Breed Prediction is a machine learning project that uses a pre-trained neura
    git clone https://github.com/yourusername/Dog_breed.git
    cd Dog_breed
 
-2. **Create a Virtual Environment (Optional but Recommended):
+2. **Create a Virtual Environment (Optional but Recommended):**
 
 ```bash
 python -m venv env
@@ -33,23 +33,25 @@ env\Scripts\activate
 # On Mac/Linux:
 source env/bin/activate
 ```
-Usage
-Run the Streamlit App:
-bash
+**Usage**
+**Run the Streamlit App:**
+```bash
 Copy
 streamlit run main_app.py
-Upload an Image:
-Click on the "Choose an image" button.
-Select an image of a dog.
-Click "Predict" to see the predicted dog breed.
-Project Structure
+```
+**Upload an Image:**
+- Click on the "Choose an image" button.
+- Select an image of a dog.
+- Click "Predict" to see the predicted dog breed.
 
-# bash
+**Project Structure**
+```bash
 Dog_breed/
 ├── main_app.py        # Main Streamlit application
 ├── dog_breed.h5       # Pre-trained model file
 ├── requirements.txt   # Python dependencies
 └── README.md          # Project documentation (this file)
+```
 Contributing
 Contributions are welcome! Please fork this repository and submit a pull request for any enhancements or bug fixes.
 

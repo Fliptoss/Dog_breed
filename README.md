@@ -27,17 +27,16 @@ Dog Breed Prediction is a machine learning project that uses a pre-trained neura
 2. **Create a Virtual Environment (Optional but Recommended):**
 
 ```bash
-python -m venv env
-# On Windows:
-env\Scripts\activate
-# On Mac/Linux:
-source env/bin/activate
+   python -m venv env
+   # On Windows:
+   env\Scripts\activate
+   # On Mac/Linux:
+   source env/bin/activate
 ```
 **Usage**
 **Run the Streamlit App:**
 ```bash
-Copy
-streamlit run main_app.py
+   streamlit run main_app.py
 ```
 **Upload an Image:**
 - Click on the "Choose an image" button.
@@ -46,11 +45,11 @@ streamlit run main_app.py
 
 **Project Structure**
 ```bash
-Dog_breed/
-├── main_app.py        # Main Streamlit application
-├── dog_breed.h5       # Pre-trained model file
-├── requirements.txt   # Python dependencies
-└── README.md          # Project documentation (this file)
+   Dog_breed/
+   ├── main_app.py        # Main Streamlit application
+   ├── dog_breed.h5       # Pre-trained model file
+   ├── requirements.txt   # Python dependencies
+   └── README.md          # Project documentation (this file)
 ```
 Contributing
 Contributions are welcome! Please fork this repository and submit a pull request for any enhancements or bug fixes.
@@ -58,10 +57,5 @@ Contributions are welcome! Please fork this repository and submit a pull request
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contact
-For questions or suggestions, please open an issue or contact me at your.email@example.com.
-
-markdown
-Copy
 
 
